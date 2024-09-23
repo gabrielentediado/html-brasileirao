@@ -1,0 +1,49 @@
+
+*{
+    font-family: 'Poppins';
+}
+
+.brasileiro{
+    border: 1px solid #e6e6e6;
+    table-layout: auto;
+    float: left;
+    border-collapse: separate;
+    border-spacing: 2;
+}
+
+.table-head{
+    border: 1px solid #e6e6e6;
+}
+
+.number-blue{
+    color: rgb(49, 78, 172);
+    font-size: 22px;
+}
+
+.number-light-blue{
+    color: rgb(93, 182, 145);
+    font-size: 22px;
+}
+
+.number-yellow{
+    color: rgb(175, 149, 36);
+    font-size: 22px;
+}
+
+tfoot {
+    display: table-footer-group;
+    vertical-align: middle;
+    border-color: inherit;
+    font-size: 10px;
+  }
+
+  ul{
+    list-style: none; /* Remove as bolinhas */
+    padding: 0;
+    text-align: center
+  }
+
+  ul li {
+    display: inline-block; /* Alinha os itens na horizontal */
+    margin: 0 10px; /* Espaçamento entre os itens */
+}
