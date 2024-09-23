@@ -1,49 +1,121 @@
-
-*{
+* {
     font-family: 'Poppins';
 }
 
-.brasileiro{
+tbody tr, td{
+    margin-left: 25px;
+}
+
+
+td:nth-child(even){
+    background-color: #f1f1f1;
+  } 
+
+.brasileiro {
     border: 1px solid #e6e6e6;
     table-layout: auto;
     float: left;
     border-collapse: separate;
-    border-spacing: 2;
+    border-spacing: 5px;
+    border-collapse: collapse;
+
 }
 
-.table-head{
+.brasileiro tr, td {
+    width: 45px;
+}
+
+.brasileiro tr{
     border: 1px solid #e6e6e6;
 }
 
-.number-blue{
-    color: rgb(49, 78, 172);
+.table-head {
+    border: 1px solid #e6e6e6;
+}
+
+.number{
     font-size: 22px;
 }
 
-.number-light-blue{
+.number-blue {
+    padding: 5px;
+    color: rgb(49, 78, 172);
+    font-size: 22px;
+   
+}
+
+.number-light-blue {
+    padding: 5px;
     color: rgb(93, 182, 145);
     font-size: 22px;
 }
 
-.number-yellow{
+.number-yellow {
+    padding: 5px;
     color: rgb(175, 149, 36);
     font-size: 22px;
 }
 
+.number-grey{
+    padding: 5px;
+    color: rgb(122, 122, 122);
+    font-size: 22px;
+}
+
+.number-red{
+    padding: 5px;
+    color: rgb(114, 0, 0);
+    font-size: 22px;
+}
+
 tfoot {
-    display: table-footer-group;
-    vertical-align: middle;
-    border-color: inherit;
-    font-size: 10px;
-  }
+    font-size: 11px;
+    position: absolute;
+    display: block; 
+    margin-top: 0px; 
+}
+tfoot td {
+    white-space: nowrap;
+    border: none; 
+    text-align: left; 
+}
 
-  ul{
-    list-style: none; /* Remove as bolinhas */
-    padding: 0;
-    text-align: center
-  }
+.bloco-blue{
+    margin-left: 10px;
+    position: absolute;
+    display: flex;
+    width: 15px;
+    height: 15px;
+    background-color: rgb(0, 73, 141);
+    border-radius: 5px;
+}
 
-  ul li {
-    display: inline-block; /* Alinha os itens na horizontal */
-    margin: 0 10px; /* Espaçamento entre os itens */
+.bloco-light-blue{
+    margin-left: 10px;
+    position: absolute;
+    display: flex;
+    width: 15px;
+    height: 15px;
+    background-color: rgb(60, 135, 206);
+    border-radius: 5px;
+}
+
+.bloco-yellow{
+    margin-left: 10px;
+    position: absolute;
+    display: flex;
+    width: 15px;
+    height: 15px;
+    background-color: rgb(141, 139, 0);
+    border-radius: 5px;
+}
+
+.bloco-red{
+    margin-left: 10px;
+    position: absolute;
+    display: flex;
+    width: 15px;
+    height: 15px;
+    background-color: rgb(141, 33, 0);
+    border-radius: 5px;
 }
